@@ -1,0 +1,31 @@
+{
+  "proyecto": "Mex Toto On Live Future",
+  "autor": "Mex totò",
+  "mapa_facial": {
+    "pelo_izquierdo": {
+      "accion": "reproducir_audio",
+      "descripcion": "Menú de Canciones / Rap Metralleta",
+      "enlace": "https://vvalencia.github.io/mex-toto-live-future/assets/media/musica/intro_show.mp3"
+    },
+    "pelo_derecho": {
+      "accion": "abrir_video",
+      "descripcion": "Menú de Vídeos / Show 360",
+      "enlace": "https://vvalencia.github.io/mex-toto-live-future/assets/media/videos/presentacion.mp4"
+    },
+    "nariz_roja_nodo": {
+      "accion": "abrir_menu_global",
+      "descripcion": "Portal Holográfico Principal",
+      "enlace": "https://vvalencia.github.io/mex-toto-live-future/index.html"
+    },
+    "ojo_izquierdo": {
+      "accion": "social_media",
+      "descripcion": "Instagram Oficial",
+      "enlace": "https://www.instagram.com/tu_usuario"
+    },
+    "ojo_derecho": {
+      "accion": "social_media",
+      "descripcion": "TikTok Oficial",
+      "enlace": "https://www.tiktok.com/@tu_usuario"
+    }
+  }
+}
