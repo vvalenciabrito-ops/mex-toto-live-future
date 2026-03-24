@@ -1,9 +1,106 @@
-class="container">
-    <img src="logo.png" alt="Mex Totò" class="logo">
-    
-    <h2>OK LIVE FUTURE</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mex Totò - Live Future</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
 
-    <a href="https://www.facebook.com/payasotototontin" class="boton fb">Facebook</a>
-    <a href="https://www.tiktok.com/@payasototo" class="boton tt">TikTok</a>
-    <a href="https://youtube.com/@payasiamigos" class="boton yt">YouTube</a>
-    <a href="https://wa.me/527351672611" class="boton wa">WhatsApp</a>
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #4df2f2;
+            text-shadow: 0 0 10px #4df2f2, 0 0 20px #4df2f2;
+            font-size: 24px;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+            border-radius: 25px;
+            font-size: 16px;
+            text-transform: uppercase;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: block;
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Colores de los botones según tu diseño */
+        .facebook {
+            background: #1877F2;
+            box-shadow: 0 0 15px #1877F2;
+        }
+
+        .tiktok {
+            background: #000;
+            border: 2px solid #ff0050;
+            box-shadow: 0 0 15px #ff0050;
+        }
+
+        .instagram {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            box-shadow: 0 0 15px #dc2743;
+        }
+
+        .youtube {
+            background: #FF0000;
+            box-shadow: 0 0 15px #FF0000;
+        }
+
+        .whatsapp {
+            background: #25D366;
+            box-shadow: 0 0 15px #25D366;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="logo.png" alt="Mex Totò" class="logo" onerror="this.style.display='none'">
+
+    <h1>OK LIVE FUTURE</h1>
+
+    <div class="container">
+        <a href="https://www.facebook.com/payasotototontin" target="_blank" class="btn facebook">Facebook</a>
+
+        <a href="https://www.tiktok.com/@payasotototontin" target="_blank" class="btn tiktok">TikTok</a>
+
+        <a href="https://www.instagram.com/mex_toto" target="_blank" class="btn instagram">Instagram</a>
+
+        <a href="https://youtube.com/@payasiamigos7097" target="_blank" class="btn youtube">YouTube</a>
+
+        <a href="https://whatsapp.com/channel/0029VbAjkRhICVfmVteGfu2L" target="_blank" class="btn whatsapp">WhatsApp</a>
+    </div>
+
+</body>
+</html>
